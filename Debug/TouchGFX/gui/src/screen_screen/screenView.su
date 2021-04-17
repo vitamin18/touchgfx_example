@@ -1,0 +1,62 @@
+Drawable.hpp:64:13:touchgfx::Drawable::~Drawable()	16	static
+Drawable.hpp:64:13:virtual touchgfx::Drawable::~Drawable()	16	static
+Drawable.hpp:134:23:virtual touchgfx::Drawable* touchgfx::Drawable::getFirstChild()	16	static
+Drawable.hpp:271:18:virtual void touchgfx::Drawable::setX(int16_t)	16	static
+Drawable.hpp:283:18:virtual void touchgfx::Drawable::setY(int16_t)	16	static
+Drawable.hpp:312:18:virtual void touchgfx::Drawable::setWidth(int16_t)	16	static
+Drawable.hpp:324:18:virtual void touchgfx::Drawable::setHeight(int16_t)	16	static
+Drawable.hpp:334:18:virtual void touchgfx::Drawable::childGeometryChanged()	16	static
+Drawable.hpp:345:18:virtual void touchgfx::Drawable::handleClickEvent(const touchgfx::ClickEvent&)	16	static
+Drawable.hpp:356:18:virtual void touchgfx::Drawable::handleGestureEvent(const touchgfx::GestureEvent&)	16	static
+Drawable.hpp:444:18:virtual void touchgfx::Drawable::handleDragEvent(const touchgfx::DragEvent&)	16	static
+Drawable.hpp:454:18:virtual void touchgfx::Drawable::handleTickEvent()	16	static
+Drawable.hpp:490:10:bool touchgfx::Drawable::isVisible() const	16	static
+Drawable.hpp:502:10:bool touchgfx::Drawable::isTouchable() const	16	static
+Drawable.hpp:541:18:virtual void touchgfx::Drawable::moveTo(int16_t, int16_t)	16	static
+Drawable.hpp:578:10:void touchgfx::Drawable::resetDrawChainCache()	16	static
+Drawable.hpp:656:18:virtual void touchgfx::Drawable::setupDrawChain(const touchgfx::Rect&, touchgfx::Drawable**)	24	static
+Screen.hpp:49:13:touchgfx::Screen::~Screen()	16	static
+Screen.hpp:49:13:virtual touchgfx::Screen::~Screen()	16	static
+Screen.hpp:96:18:virtual void touchgfx::Screen::setupScreen()	16	static
+Screen.hpp:107:18:virtual void touchgfx::Screen::afterTransition()	16	static
+Screen.hpp:118:18:virtual void touchgfx::Screen::tearDownScreen()	16	static
+Screen.hpp:147:18:virtual void touchgfx::Screen::handleTickEvent()	16	static
+Screen.hpp:157:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	16	static
+Widget.hpp:50:18:virtual void touchgfx::Widget::getLastChild(int16_t, int16_t, touchgfx::Drawable**)	24	static
+Widget.hpp:39:7:touchgfx::Widget::~Widget()	16	static
+Widget.hpp:39:7:virtual touchgfx::Widget::~Widget()	16	static
+DrawableList.hpp:42:13:touchgfx::DrawableListItemsInterface::~DrawableListItemsInterface()	16	static
+DrawableList.hpp:42:13:virtual touchgfx::DrawableListItemsInterface::~DrawableListItemsInterface()	16	static
+Container.hpp:42:7:touchgfx::Container::~Container()	16	static
+Container.hpp:42:7:virtual touchgfx::Container::~Container()	16	static
+View.hpp:40:7:touchgfx::View<screenPresenter>::~View()	16	static
+View.hpp:40:7:virtual touchgfx::View<screenPresenter>::~View()	16	static
+screenViewBase.hpp:18:13:screenViewBase::~screenViewBase()	16	static
+screenViewBase.hpp:18:13:virtual screenViewBase::~screenViewBase()	16	static
+screenViewBase.hpp:21:18:virtual void screenViewBase::scrollWheel1UpdateItem(MenuElement&, int16_t)	24	static
+screenView.hpp:11:13:screenView::~screenView()	16	static
+screenView.hpp:11:13:virtual screenView::~screenView()	16	static
+screenView.cpp:4:1:screenView::screenView()	16	static
+screenView.cpp:9:6:virtual void screenView::setupScreen()	16	static
+screenView.cpp:14:6:virtual void screenView::tearDownScreen()	16	static
+screenView.cpp:19:6:virtual void screenView::handleTickEvent()	16	static
+Box.hpp:36:7:touchgfx::Box::~Box()	16	static
+Box.hpp:36:7:virtual touchgfx::Box::~Box()	16	static
+DrawableList.hpp:117:7:touchgfx::DrawableList::~DrawableList()	16	static
+DrawableList.hpp:117:7:virtual touchgfx::DrawableList::~DrawableList()	16	static
+ScrollBase.hpp:43:7:touchgfx::ScrollBase::~ScrollBase()	16	static
+ScrollBase.hpp:43:7:virtual touchgfx::ScrollBase::~ScrollBase()	16	static
+ScrollWheelBase.hpp:40:7:touchgfx::ScrollWheelBase::~ScrollWheelBase()	16	static
+ScrollWheelBase.hpp:40:7:virtual touchgfx::ScrollWheelBase::~ScrollWheelBase()	16	static
+ScrollWheel.hpp:40:7:touchgfx::ScrollWheel::~ScrollWheel()	16	static
+ScrollWheel.hpp:40:7:virtual touchgfx::ScrollWheel::~ScrollWheel()	16	static
+DrawableList.hpp:79:7:touchgfx::DrawableListItems<MenuElement, 2>::~DrawableListItems()	24	static
+DrawableList.hpp:79:7:virtual touchgfx::DrawableListItems<MenuElement, 2>::~DrawableListItems()	16	static
+Callback.hpp:221:8:touchgfx::Callback<screenViewBase, touchgfx::DrawableListItemsInterface*, short int, short int>::~Callback()	16	static
+Callback.hpp:221:8:virtual touchgfx::Callback<screenViewBase, touchgfx::DrawableListItemsInterface*, short int, short int>::~Callback()	16	static
+Callback.hpp:51:13:touchgfx::GenericCallback<T1, T2, T3>::~GenericCallback() [with T1 = touchgfx::DrawableListItemsInterface*; T2 = short int; T3 = short int]	16	static
+Callback.hpp:51:13:touchgfx::GenericCallback<T1, T2, T3>::~GenericCallback() [with T1 = touchgfx::DrawableListItemsInterface*; T2 = short int; T3 = short int]	16	static
+Callback.hpp:254:18:void touchgfx::Callback<dest_type, T1, T2, T3>::execute(T1, T2, T3) [with dest_type = screenViewBase; T1 = touchgfx::DrawableListItemsInterface*; T2 = short int; T3 = short int]	32	static
+Callback.hpp:264:18:bool touchgfx::Callback<dest_type, T1, T2, T3>::isValid() const [with dest_type = screenViewBase; T1 = touchgfx::DrawableListItemsInterface*; T2 = short int; T3 = short int]	16	static
+DrawableList.hpp:82:23:touchgfx::Drawable* touchgfx::DrawableListItems<TYPE, SIZE>::getDrawable(int16_t) [with TYPE = MenuElement; int SIZE = 2]	16	static
+DrawableList.hpp:101:21:int16_t touchgfx::DrawableListItems<TYPE, SIZE>::getNumberOfDrawables() [with TYPE = MenuElement; int SIZE = 2]	16	static

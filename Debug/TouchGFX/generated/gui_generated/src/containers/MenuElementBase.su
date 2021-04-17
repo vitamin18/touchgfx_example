@@ -1,0 +1,55 @@
+Types.hpp:94:5:touchgfx::colortype::colortype(uint32_t)	16	static
+Types.hpp:130:5:touchgfx::Rect::Rect()	16	static
+Types.hpp:146:5:touchgfx::Rect::Rect(int16_t, int16_t, int16_t, int16_t)	24	static
+Drawable.hpp:53:5:touchgfx::Drawable::Drawable()	24	static
+Drawable.hpp:64:13:touchgfx::Drawable::~Drawable()	16	static
+Drawable.hpp:64:13:virtual touchgfx::Drawable::~Drawable()	16	static
+Drawable.hpp:134:23:virtual touchgfx::Drawable* touchgfx::Drawable::getFirstChild()	16	static
+Drawable.hpp:271:18:virtual void touchgfx::Drawable::setX(int16_t)	16	static
+Drawable.hpp:283:18:virtual void touchgfx::Drawable::setY(int16_t)	16	static
+Drawable.hpp:299:10:void touchgfx::Drawable::setXY(int16_t, int16_t)	16	static
+Drawable.hpp:312:18:virtual void touchgfx::Drawable::setWidth(int16_t)	16	static
+Drawable.hpp:324:18:virtual void touchgfx::Drawable::setHeight(int16_t)	16	static
+Drawable.hpp:334:18:virtual void touchgfx::Drawable::childGeometryChanged()	16	static
+Drawable.hpp:345:18:virtual void touchgfx::Drawable::handleClickEvent(const touchgfx::ClickEvent&)	16	static
+Drawable.hpp:356:18:virtual void touchgfx::Drawable::handleGestureEvent(const touchgfx::GestureEvent&)	16	static
+Drawable.hpp:444:18:virtual void touchgfx::Drawable::handleDragEvent(const touchgfx::DragEvent&)	16	static
+Drawable.hpp:454:18:virtual void touchgfx::Drawable::handleTickEvent()	16	static
+Drawable.hpp:490:10:bool touchgfx::Drawable::isVisible() const	16	static
+Drawable.hpp:502:10:bool touchgfx::Drawable::isTouchable() const	16	static
+Drawable.hpp:541:18:virtual void touchgfx::Drawable::moveTo(int16_t, int16_t)	16	static
+Drawable.hpp:578:10:void touchgfx::Drawable::resetDrawChainCache()	16	static
+Drawable.hpp:656:18:virtual void touchgfx::Drawable::setupDrawChain(const touchgfx::Rect&, touchgfx::Drawable**)	24	static
+Container.hpp:45:5:touchgfx::Container::Container()	16	static
+Container.hpp:154:23:virtual touchgfx::Drawable* touchgfx::Container::getFirstChild()	16	static
+HAL.hpp:109:17:static touchgfx::HAL* touchgfx::HAL::getInstance()	4	static
+HAL.hpp:226:17:static touchgfx::LCD& touchgfx::HAL::lcd()	4	static
+TypedText.hpp:62:14:touchgfx::TypedText::TypedText(touchgfx::TypedTextId)	16	static
+TypedText.hpp:68:13:touchgfx::TypedText::~TypedText()	16	static
+TypedText.hpp:68:13:virtual touchgfx::TypedText::~TypedText()	16	static
+Widget.hpp:50:18:virtual void touchgfx::Widget::getLastChild(int16_t, int16_t, touchgfx::Drawable**)	24	static
+Widget.hpp:39:7:touchgfx::Widget::Widget()	16	static
+Widget.hpp:39:7:touchgfx::Widget::~Widget()	16	static
+Widget.hpp:39:7:virtual touchgfx::Widget::~Widget()	16	static
+TextArea.hpp:47:5:touchgfx::TextArea::TextArea()	16	static
+TextArea.hpp:52:18:virtual touchgfx::Rect touchgfx::TextArea::getSolidRect() const	24	static
+TextArea.hpp:103:18:virtual void touchgfx::TextArea::setBaselineY(int16_t)	48	static
+TextArea.hpp:119:18:virtual void touchgfx::TextArea::setXBaselineY(int16_t, int16_t)	16	static
+TypedText.hpp:44:7:constexpr touchgfx::TypedText::TypedText(const touchgfx::TypedText&)	16	static
+TextArea.hpp:228:15:touchgfx::TypedText touchgfx::TextArea::getTypedText() const	16	static
+Container.hpp:42:7:touchgfx::Container::~Container()	16	static
+Container.hpp:42:7:virtual touchgfx::Container::~Container()	16	static
+MenuElementBase.hpp:17:13:MenuElementBase::~MenuElementBase()	16	static
+MenuElementBase.hpp:17:13:virtual MenuElementBase::~MenuElementBase()	16	static
+Color.hpp:51:22:static touchgfx::colortype touchgfx::Color::getColorFrom24BitRGB(uint8_t, uint8_t, uint8_t)	24	static
+MenuElementBase.cpp:8:1:MenuElementBase::MenuElementBase()	48	static
+MenuElementBase.cpp:20:6:virtual void MenuElementBase::initialize()	16	static
+TextArea.hpp:44:7:touchgfx::TextArea::~TextArea()	16	static
+TextArea.hpp:44:7:virtual touchgfx::TextArea::~TextArea()	16	static
+MoveAnimator.hpp:42:5:touchgfx::MoveAnimator<T>::MoveAnimator() [with T = touchgfx::TextArea]	16	static
+MoveAnimator.hpp:39:7:touchgfx::MoveAnimator<touchgfx::TextArea>::~MoveAnimator()	16	static
+MoveAnimator.hpp:39:7:virtual touchgfx::MoveAnimator<touchgfx::TextArea>::~MoveAnimator()	16	static
+MoveAnimator.hpp:164:18:void touchgfx::MoveAnimator<T>::handleTickEvent() [with T = touchgfx::TextArea]	16	static
+MoveAnimator.hpp:83:18:void touchgfx::MoveAnimator<T>::setMoveAnimationDelay(uint16_t) [with T = touchgfx::TextArea]	16	static
+MoveAnimator.hpp:95:22:uint16_t touchgfx::MoveAnimator<T>::getMoveAnimationDelay() const [with T = touchgfx::TextArea]	16	static
+MoveAnimator.hpp:173:10:void touchgfx::MoveAnimator<T>::nextMoveAnimationStep() [with T = touchgfx::TextArea]	32	static

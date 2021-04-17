@@ -1,0 +1,9 @@
+freertos.c:85:6:vApplicationGetIdleTaskMemory	24	static
+freertos.c:98:6:vApplicationGetTimerTaskMemory	24	static
+freertos.c:112:6:MX_FREERTOS_Init	88	static
+freertos.c:165:6:StartDefaultTask	16	static
+freertos.c:189:6:StartButtonTask	16	static
+freertos.c:207:6:signalVsyncCallback	16	static
+freertos.c:216:6:TransferComplete	16	static
+freertos.c:221:6:TransferError	16	static
+freertos.c:226:6:PollingButton	24	static

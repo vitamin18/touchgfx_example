@@ -1,0 +1,9 @@
+oled160128.c:9:6:Oled_160128_Reset	8	static
+oled160128.c:17:6:Oled_160128_Command	16	static
+oled160128.c:22:6:Oled_160128_Data	16	static
+oled160128.c:27:6:Oled_160128_Read_Pixel	24	static
+oled160128.c:42:6:Oled_160128_Reg	16	static
+oled160128.c:49:6:Oled_160128_Set_Window	24	static
+oled160128.c:62:6:Oled_160128_Fill_Rect	32	static
+oled160128.c:80:6:OLED_Init_160128RGB	16	static
+oled160128.c:161:6:LCD_IO_WriteMultipleData	24	static
